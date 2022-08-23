@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'Agentpool'
 
 variables:
   solution: '**/*.sln'
